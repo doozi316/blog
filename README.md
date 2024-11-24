@@ -6,6 +6,9 @@ permalink: /
 
 ![]({{site.baseurl}}/assets/gitbook/images/main.jpg)
 
-# 최신 글 보기
+# Contact
 
-최신글... 없음...
+-   ✉️ gmail
+    -   [doozi316@gmail.com](mailto:doozi316@gmail.com)
+-   🖥️ github
+    -   [https://github.com/doozi316](https://github.com/doozi316)
