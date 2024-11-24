@@ -1,6 +1,6 @@
 ---
 title: MathJax and LaTeX
-author: Tao He
+author: Hyeonjin Kim
 date: 2023-10-14
 category: Jekyll
 layout: post
@@ -14,7 +14,7 @@ and mathematics expressions.
 >
 > Currently, Kramdown uses double dollar sign delimiters for inline and display math:
 > [https://kramdown.gettalong.org/syntax.html#math-blocks](https://kramdown.gettalong.org/syntax.html#math-blocks).
-{: .block-tip }
+> {: .block-tip }
 
 e.g.,
 

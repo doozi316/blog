@@ -13,7 +13,7 @@
                 "articlesExpand": true,
             },
             "fontsettings": {
-                "family": "sans",
+                "family": "pre",
                 "size": 2,
                 "theme": "white"
             },
@@ -40,7 +40,7 @@
             },
         },
         "theme": "default",
-        "author": "Tao He",
+        "author": "Hyeonjin Kim",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,

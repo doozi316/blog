@@ -1,6 +1,6 @@
 ---
 title: Using Footnotes
-author: Tao He
+author: Hyeonjin Kim
 date: 2023-12-12
 category: Jekyll
 layout: post
@@ -26,8 +26,7 @@ Meaning the next equation has no integer solutions:
 
 $$ x^n + y^n = z^n $$
 
-Long contents
--------------
+## Long contents
 
 long contents .....
 
@@ -42,8 +41,7 @@ long contents .....
 
 ### Sub title 3
 
-Long contents
--------------
+## Long contents
 
 long contents .....
 
@@ -58,8 +56,7 @@ long contents .....
 
 ### Sub title 3
 
-Long contents
--------------
+## Long contents
 
 long contents .....
 
@@ -74,8 +71,7 @@ long contents .....
 
 ### Sub title 3
 
-Long contents
--------------
+## Long contents
 
 long contents .....
 
@@ -90,8 +86,7 @@ long contents .....
 
 ### Sub title 3
 
-Long contents
--------------
+## Long contents
 
 long contents .....
 
@@ -106,8 +101,7 @@ long contents .....
 
 ### Sub title 3
 
-Long contents
--------------
+## Long contents
 
 long contents .....
 

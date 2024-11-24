@@ -1,9 +1,12 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
+author: Hyeonjin Kim
+date: 2024-11-24
 category: Jekyll
 layout: post
 ---
 
-This is an contact page.
+-   ✉️ gmail
+    -   [doozi316@gmail.com](mailto:doozi316@gmail.com)
+-   🖥️ github
+    -   [https://github.com/doozi316](https://github.com/doozi316)
