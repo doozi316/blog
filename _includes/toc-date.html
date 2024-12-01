@@ -9,10 +9,7 @@
         }
         // Fixes the anchor links scroll problem on mobile browsers
         function mobilePageScrollToAnchor(element) {
-            $(element)
-                .closest('li.chapter')
-                .find('ul>li')
-                .removeClass('active');
+            $(element).closest('li.post').find('ul>li').removeClass('active');
             $(element).parent().addClass('active');
             if ($(document).width() <= 1240) {
                 let target = $($(element).attr('href'));
@@ -82,21 +79,22 @@
             {% assign categories = site.posts | group_by: 'category' %} {% for
             category in categories %}
             <li
-                class="chapter"
+                class="category expanded"
                 data-level="1.1"
-                data-path="#"
             >
                 <a
                     href="#"
+                    class="category-title"
                     onclick="return false;"
                 >
+                    <i class="icon exc-trigger fa"></i>
                     {{ category.name | escape }}
                 </a>
                 <ul>
                     {% for post in category.items %} {% if page.url == post.url
                     %}
                     <li
-                        class="chapter active"
+                        class="post active expanded"
                         data-level="1.2"
                         data-path="{{site.baseurl}}{{post.url}}"
                     >
@@ -104,15 +102,17 @@
                     </li>
 
                     <li
-                        class="chapter"
+                        class="post"
                         data-level="1.2"
                         data-path="{{site.baseurl}}{{post.url}}"
                     >
                         {% endif %}
                         <a
+                            class="post-title"
                             href="{{site.baseurl}}{{post.url}}"
                             onclick="pageScrollToTop(this)"
                         >
+                            <i class="exc-trigger fa"></i>
                             {{ post.title | escape }}
                         </a>
                         {% if site.toc.enabled %} {% if page.url == post.url %}
