@@ -1,5 +1,3 @@
----
----
 
 .book-body {
     overflow-y: scroll;
@@ -290,3 +288,4 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', sans-serif !important;
 }
+
