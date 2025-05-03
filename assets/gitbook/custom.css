@@ -282,6 +282,11 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     margin-right: 7px;
 }
 
+.category-icon-small {
+    width: 15px;
+    margin-right: 10px;
+}
+
 .book-summary {
     font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
     'Pretendard Variable', Pretendard, Roboto, 'Segoe UI',
